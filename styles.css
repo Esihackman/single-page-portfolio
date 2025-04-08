@@ -1,0 +1,89 @@
+
+:root {
+  
+  --black:#030303;
+  --cyan: #61C4B7;
+  --Galatic-blue: #755CDE;
+  --meduim-brown: #7A746E;
+  --light-cream: #FFF7F0;
+  --summer-yellow: #F6a560;
+  --pink: #f1a3ab;
+  --dark-purple: #552049;
+  --light-red: #EB7565;
+
+} 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: plus jakarta sans;
+  background-color: var(--light-cream);
+  color: var(--black);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ .header {
+  padding: var(--spacing-lg) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-top: 34px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+}
+
+
+.cta-button {
+  background-color: black;
+  color: white;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  display: inline-block;
+}
+
+
+
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 64px;
+   padding-bottom: 23px;
+}
+
+.hero p {
+  
+  font-size: 18px;
+  font-weight: medium;
+  line-height: 28px;
+  color: #7A746E;
+  
+}
+
