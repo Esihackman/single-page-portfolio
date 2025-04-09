@@ -3,12 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" /> 
   <title>Frontend Mentor | Single-page design portfolio</title>
+  
+   
 </head>
 <body>
+ <!-- About Me Section -->
+<section class="about-section" aria-labelledby="about-heading">
+  <div class="about-image" aria-hidden="true">
+     <img src="assets/image-amy.webp">
+      
+  </div>
   
+  <div class="about-content">
+      <h2 id="about-heading">I'm Amy, and I'd love to work on your next project</h2>
+      <p>I love working with others to create beautiful design solutions.<br> I've designed everything from brand illustrations to complete<br> mobile apps. I'm also handy with a camera!</p>
+      <div class="cta-button ">Free Consultation</div>
+  </section>
+
+      <!-- My Work Section -->
+<section class="portfolio" aria-labelledby="portfolio-heading">
+  <h2 id="portfolio-heading">My Work</h2>
+  
+  <div class="portfolio-grid">
+      <div class="portfolio-item">
+          <img src="assets/image-slide-2.jpg" alt="Cool Newspaper design with colorful illustrations">
+      </div>
+      
+      <div class="portfolio-item">
+          <img src="assets/image-slide-3.jpg" alt="Portfolio work sample">
+      </div>
+  
+  
+      <div class="portfolio-item">
+          <img src="assets/image-slide-5.jpg" alt="Portfolio work">
+      </div>
+  </div>
+  
+  <div class="portfolio-nav" aria-label="Portfolio navigation">
+    <button class="nav-button" aria-label="Previous project">
+        <img src="assets/icon-arrow-left.svg" alt="Previous arrow">
+    </button>
+    
+    <button class="nav-button" aria-label="Next project">
+        <img src="assets/icon-arrow-right.svg" alt="Next arrow">
+    </button>
+</div>
+</section>
+  </div>
+</section>
 </body>
 </html>
