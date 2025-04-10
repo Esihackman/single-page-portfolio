@@ -53,7 +53,7 @@ img {
 
 .cta-button {
   background-color: black;
-  color: white;
+  color: #FFF7F0;
   padding-inline: 20px;
   padding-block: 10px;
   border-radius: 28px;
@@ -98,7 +98,6 @@ img {
 .service-box {
   border-radius: 8px;
   color: #FFFFFF;
-  /* font-weight: 500; */
   display: flex;
   align-items: flex-end; 
   justify-content: flex-start; 
@@ -107,8 +106,6 @@ img {
 }
 
 
-
-/* Individual service cards */
 .service-box img.icon {
   position: absolute;
   top: 20px; 
