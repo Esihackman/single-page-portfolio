@@ -66,7 +66,7 @@ img {
 }
 
 .consultation-button {
-  background-color: var(--summer-yellow);
+  background-color: var(--black);
   font-weight: bold;
   font-size: 16px;
   width: 228px;
@@ -189,12 +189,13 @@ img {
 }
 
 .about-image img {
-  width: 445px;
-  height: 445px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
   position: relative;
   z-index: 1;
+  
 }
 
 .about-content h2 {
@@ -214,7 +215,7 @@ img {
 }
 
 .cta-button {
-  background-color: var(--summer-yellow);
+  background-color: var(--light-red);
   font-weight: bold;
   font-size: 16px;
   width: 228px;
@@ -289,14 +290,15 @@ img {
   background-color: var(--black);
   max-width: var(--container-width);
   margin: var(--gap-xl) auto;
-  padding-inline: 1.5rem;
-  padding-block: 40px;
+  padding: 0 var(--gap-lg);
   text-align: left;
   border-radius: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
   gap: var(--gap-md);
+  padding-top: 40px; 
+  padding-bottom: 40px;
 }
 
 .cta-content {
@@ -307,6 +309,7 @@ img {
   font-size: 40px;
   font-weight: bold;
   color: var(--light-cream);
+  margin-top: var(--gap-sm);
   margin-bottom: var(--gap-sm);
 }
 
@@ -316,11 +319,12 @@ img {
   line-height: 26px;
   color: var(--light-cream);
   width: 295px;
-  height: 130px;
+  height: auto;
+  margin-bottom: var(--gap-lg);
 }
 
 .heading-button {
-  background-color: var(--summer-yellow);
+  background-color: var(--light-red);
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -335,7 +339,7 @@ img {
   justify-content: center;
   position: absolute;
   top: 50%;
-  right: var(--gap-md);
+  right: var(--gap-xl);
   
 }
 
@@ -356,7 +360,7 @@ img {
 }
 
 .free-button {
-  background-color: var(--galactic-blue);
+  background-color: var(--black);
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -546,7 +550,7 @@ img {
     padding: 0 var(--gap-sm);
   }
   
-  .consultation-button, .cta-button, .heading-button, .free-button {
+  .consultation-button, .cta-button, .heading-button {
     width: 180px;
   }
 }
@@ -620,11 +624,12 @@ img {
     margin-bottom: var(--gap-md);
   }
   
-  .cta-button, .heading-button, .free-button {
+  .cta-button, .heading-button {
     width: 160px;
     height: 44px;
     font-size: 14px;
   }
+  
   
   .portfolio {
     margin: var(--gap-lg) auto;
@@ -647,8 +652,11 @@ img {
   
   .cta-section {
     margin: var(--gap-lg) var(--gap-sm);
-    padding: var(--gap-sm);
+    padding: var(--gap-xl);
     gap: var(--gap-sm);
+    align-items: center;
+    
+    
   }
   
   .cta-section h2 {
@@ -663,7 +671,15 @@ img {
   .cta-icon {
     width: 48px;
     height: 48px;
+    margin-left: 16px;
+    margin-right: 16px
     
-    
+  }
+  .free-button  {
+    width: 160px;
+    height: 44px;
+    font-size: 14px;
+     margin-left: 16px;
+    margin-right: 16px;
   }
 }
