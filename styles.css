@@ -289,7 +289,8 @@ img {
   background-color: var(--black);
   max-width: var(--container-width);
   margin: var(--gap-xl) auto;
-  padding: var(--gap-xl);
+  padding-inline: 1.5rem;
+  padding-block: 40px;
   text-align: left;
   border-radius: 10px;
   position: relative;
@@ -311,9 +312,11 @@ img {
 
 .cta-section p {
   font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
+  font-weight: medium;
+  line-height: 26px;
   color: var(--light-cream);
+  width: 295px;
+  height: 130px;
 }
 
 .heading-button {
@@ -323,8 +326,8 @@ img {
   border: none;
   line-height: 28px;
   cursor: pointer;
-  width: 228px;
-  height: 56px;
+  width: 176px;
+  height: 44px;
   border-radius: 30px;
   color: var(--light-cream);
   display: flex;
@@ -644,7 +647,7 @@ img {
   
   .cta-section {
     margin: var(--gap-lg) var(--gap-sm);
-    padding: var(--gap-md);
+    padding: var(--gap-sm);
     gap: var(--gap-sm);
   }
   
@@ -653,13 +656,14 @@ img {
   }
   
   .cta-section p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
   }
   
   .cta-icon {
     width: 48px;
     height: 48px;
+    
     
   }
 }
