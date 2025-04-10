@@ -1,0 +1,167 @@
+
+:root {
+  
+  --black:#030303;
+  --cyan: #61C4B7;
+  --Galatic-blue: #755CDE;
+  --meduim-brown: #7A746E;
+  --light-cream: #FFF7F0;
+  --summer-yellow: #F6a560;
+  --pink: #f1a3ab;
+  --dark-purple: #552049;
+  --light-red: #EB7565;
+
+} 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: plus jakarta sans;
+  background-color: var(--light-cream);
+  color: var(--black);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ .header {
+  padding: var(--spacing-lg) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-top: 34px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+}
+
+
+.cta-button {
+  background-color: black;
+  color: white;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  display: inline-block;
+}
+
+
+
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 64px;
+   padding-bottom: 23px;
+}
+
+.hero p {
+  
+  font-size: 18px;
+  font-weight: medium;
+  line-height: 28px;
+  color: #7A746E;
+  
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px 40px;
+}
+
+.service-box {
+  border-radius: 8px;
+  color: #FFFFFF;
+  /* font-weight: 500; */
+  display: flex;
+  align-items: flex-end; 
+  justify-content: flex-start; 
+  padding: 15px;
+  position: relative;
+}
+
+
+
+/* Individual service cards */
+.service-box img.icon {
+  position: absolute;
+  top: 20px; 
+  right: 15px;
+  width: 64px;
+  height: auto; 
+  object-fit: contain;
+  z-index: 2;
+}
+.graphic-design {
+  background-color: #755CDE;;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  height: 364px;
+  width: 354px;
+}
+
+.uiux {
+  background-color: #F6a560;
+  grid-column: 2 / span 1;
+  grid-row: 1;
+  height: 182px;
+  width: 164px;
+}
+
+.apps {
+  background-color: #F77C8E;
+  grid-column: 3 / span 1;
+  grid-row: 1;
+  height: 182px;
+  width: 164px;
+}
+
+.photography {
+  background-color: #61C4B7;
+  grid-column: 4 / span 1;
+  grid-row: 1;
+  height: 182px;
+  width: 354px;
+}
+
+.illustrations {
+  background-color: #EB7565;
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  height: 158px;
+  width: 354px;
+}
+
+.motion-graphics {
+  background-color: #552049;
+  grid-column: 4 / span 1;
+  grid-row: 2;
+  height: 158px;
+  width: 354px;
+}
